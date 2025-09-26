@@ -4,10 +4,13 @@ This config makes it so that if planet packs using Kopernicus' HomeWorldName opt
 
 To make sure that the config works properly, the HomeWorldName for a planet pack should be implemented like this:
 
-`@Kopernicus_config:BEFORE[ModName]
-{
-  @HomeWorldName = PlanetName
-}`
+`@Kopernicus_config:BEFORE[ModName]`
+
+`{`
+
+`  @HomeWorldName = PlanetName`
+  
+`}`
 
 Simply replace ModName with the name of your mod and PlanetName with the internal name of the body you want to apply the HomeWorldName to!
 
